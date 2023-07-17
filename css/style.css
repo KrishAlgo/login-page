@@ -16,7 +16,8 @@
   height: 450px;
   align-items: center;
   margin: 0 auto;
-  box-shadow: -20px 20px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 4px 20px 6px rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
 }
 .my-container .my-form .first {
   padding: 20px;
@@ -91,6 +92,8 @@
   justify-content: center;
   background: linear-gradient(151deg, rgb(206, 27, 255) 0%, rgb(61, 46, 146) 85%);
   color: #fff;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .my-container .my-form .second h1 {
   font-weight: 600;
